@@ -31,15 +31,23 @@ namespace users_api.Identity
                 throw new ArgumentOutOfRangeException(nameof(keyStr), "JWT secret deve ter pelo menos 128 bits (16 bytes).");
         }
 
+
         public string GenerateToken(Usuario usuario)
         {
             var claims = new List<Claim>
-            {
-                new(JwtRegisteredClaimNames.Sub, usuario.UserName ?? usuario.Nome ?? "user"),
-                new(ClaimTypes.NameIdentifier, usuario.Id ?? string.Empty),
-                new(ClaimTypes.Role, usuario.Role.ToString()),
-                new(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-            };
+    {
+        // ✅ ID no 'sub' (padrão JWT) e no NameIdentifier
+        new(JwtRegisteredClaimNames.Sub, usuario.Id ?? string.Empty),
+        new(ClaimTypes.NameIdentifier, usuario.Id ?? string.Empty),
+
+        // Nome exibível em 'name' (ok ser username/email)
+        new(ClaimTypes.Name, usuario.UserName ?? usuario.Nome ?? "user"),
+
+        // Papel (se usar autorização por role)
+        new(ClaimTypes.Role, usuario.Role.ToString()),
+
+        new(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+    };
 
             var creds = new SigningCredentials(new SymmetricSecurityKey(_keyBytes), SecurityAlgorithms.HmacSha256);
 
@@ -51,6 +59,7 @@ namespace users_api.Identity
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
 
         private static bool IsBase64(string value)
         {
