@@ -1,60 +1,60 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\",
+  "WorkspaceRootPath": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\users-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\users-api\\messaging\\masstransitconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:messaging\\masstransitconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\users-api\\infra\\ef\\usersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:infra\\ef\\usersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\users-api\\infra\\ef\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\infra\\ef\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:infra\\ef\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\users-api\\identity\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:identity\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\infra\\ef\\usersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:infra\\ef\\usersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\users-api\\domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\users-api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\messaging\\masstransitconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:messaging\\masstransitconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\identity\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:identity\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D97A39F0-992C-87E3-CA44-C8DDC0A8DB44}|..\\contracts\\Contracts.csproj|c:\\repos\\workspace\\cloudgames2f\\contracts\\contratos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\users-api\\interface\\configuracao\\swaggerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\interface\\configuracao\\swaggerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:interface\\configuracao\\swaggerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\users-api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\users-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\users-api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\users-api\\users-api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\users-api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:users-api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D97A39F0-992C-87E3-CA44-C8DDC0A8DB44}|..\\contracts\\Contracts.csproj|c:\\repos\\workspace\\cloudgames2f\\contracts\\contracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Repos\\Workspace\\CloudGames2F\\contracts\\Contratos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Repos\\Workspace\\CloudGames2F\\contracts\\Contracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -64,7 +64,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -80,37 +80,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MassTransitConfig.cs",
-              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\Messaging\\MassTransitConfig.cs",
+              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Messaging\\MassTransitConfig.cs",
               "RelativeDocumentMoniker": "Messaging\\MassTransitConfig.cs",
-              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\Messaging\\MassTransitConfig.cs",
+              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Messaging\\MassTransitConfig.cs",
               "RelativeToolTip": "Messaging\\MassTransitConfig.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAowB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T11:06:14.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T11:06:14.856Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\Controllers\\UsersController.cs",
+              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAkwDcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T10:50:11.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T10:50:11.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\Domain\\Entities\\Usuario.cs",
+              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Domain\\Entities\\Usuario.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Usuario.cs",
-              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\Domain\\Entities\\Usuario.cs",
+              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Domain\\Entities\\Usuario.cs",
               "RelativeToolTip": "Domain\\Entities\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -119,76 +117,74 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\Identity\\TokenService.cs",
+              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Identity\\TokenService.cs",
               "RelativeDocumentMoniker": "Identity\\TokenService.cs",
-              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\Identity\\TokenService.cs",
+              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Identity\\TokenService.cs",
               "RelativeToolTip": "Identity\\TokenService.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAswE0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAwE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T11:06:02.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T11:06:02.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\Infra\\Ef\\UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Infra\\Ef\\UserConfiguration.cs",
               "RelativeDocumentMoniker": "Infra\\Ef\\UserConfiguration.cs",
-              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\Infra\\Ef\\UserConfiguration.cs",
+              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Infra\\Ef\\UserConfiguration.cs",
               "RelativeToolTip": "Infra\\Ef\\UserConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T11:06:06.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UsersDbContext.cs",
-              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\Infra\\Ef\\UsersDbContext.cs",
+              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Infra\\Ef\\UsersDbContext.cs",
               "RelativeDocumentMoniker": "Infra\\Ef\\UsersDbContext.cs",
-              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\Infra\\Ef\\UsersDbContext.cs",
+              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Infra\\Ef\\UsersDbContext.cs",
               "RelativeToolTip": "Infra\\Ef\\UsersDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T11:06:09.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\Program.cs",
+              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\Program.cs",
+              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAswHwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAwHIAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T10:48:57.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Contratos.cs",
               "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\contracts\\Contratos.cs",
-              "RelativeDocumentMoniker": "..\\contracts\\Contratos.cs",
+              "RelativeDocumentMoniker": "..\\..\\contracts\\Contratos.cs",
               "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\contracts\\Contratos.cs",
-              "RelativeToolTip": "..\\contracts\\Contratos.cs",
+              "RelativeToolTip": "..\\..\\contracts\\Contratos.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAA5wBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T11:05:45.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T11:05:45.16Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\Dockerfile",
+              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\Dockerfile",
+              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -196,11 +192,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "SwaggerConfiguration.cs",
-              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\Interface\\Configuracao\\SwaggerConfiguration.cs",
+              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Interface\\Configuracao\\SwaggerConfiguration.cs",
               "RelativeDocumentMoniker": "Interface\\Configuracao\\SwaggerConfiguration.cs",
-              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\Interface\\Configuracao\\SwaggerConfiguration.cs",
+              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Interface\\Configuracao\\SwaggerConfiguration.cs",
               "RelativeToolTip": "Interface\\Configuracao\\SwaggerConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -208,11 +204,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\appsettings.json",
+              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\appsettings.json",
+              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -223,20 +219,20 @@
               "DocumentIndex": 13,
               "Title": "Contracts.csproj",
               "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\contracts\\Contracts.csproj",
-              "RelativeDocumentMoniker": "..\\contracts\\Contracts.csproj",
+              "RelativeDocumentMoniker": "..\\..\\contracts\\Contracts.csproj",
               "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\contracts\\Contracts.csproj",
-              "RelativeToolTip": "..\\contracts\\Contracts.csproj",
+              "RelativeToolTip": "..\\..\\contracts\\Contracts.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-02-06T11:29:24.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\appsettings.Development.json",
+              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\appsettings.Development.json",
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -244,11 +240,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "users-api.csproj",
-              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\users-api.csproj",
+              "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\users-api.csproj",
               "RelativeDocumentMoniker": "users-api.csproj",
-              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\users-api\\users-api.csproj",
+              "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\users-api.csproj",
               "RelativeToolTip": "users-api.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
