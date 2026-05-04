@@ -1,0 +1,136 @@
+trigger:
+  - '*'
+
+variables:
+  buildConfiguration: 'Release'
+  dotnetSdkVersion: '8.x'
+
+stages:
+
+# =========================
+# BUILD
+# =========================
+- stage: Build
+  displayName: 'Build the web application'
+
+  jobs:
+  - job: Build
+    displayName: 'Build Job'
+    pool:
+      vmImage: ubuntu-latest
+
+    steps:
+    - task: UseDotNet@2
+      displayName: 'Use .NET SDK $(dotnetSdkVersion)'
+      inputs:
+        packageType: 'sdk'
+        version: '$(dotnetSdkVersion)'
+
+    - task: DotNetCoreCLI@2
+      displayName: 'Restore project'
+      inputs:
+        command: 'restore'
+        projects: '**/*.csproj'
+
+    - task: DotNetCoreCLI@2
+      displayName: 'Build project'
+      inputs:
+        command: 'build'
+        arguments: '--no-restore --configuration $(buildConfiguration)'
+        projects: '**/*.csproj'
+
+    - task: DotNetCoreCLI@2
+      displayName: 'Publish project'
+      inputs:
+        command: 'publish'
+        projects: '**/*.csproj'
+        publishWebProjects: false
+        arguments: '--no-build --configuration $(buildConfiguration) --output "$(Build.ArtifactStagingDirectory)"'
+        zipAfterPublish: true
+
+    - publish: '$(Build.ArtifactStagingDirectory)'
+      artifact: drop
+
+
+# =========================
+# DEVELOPMENT
+# =========================
+- stage: Development
+  displayName: 'Deploy to Development'
+  dependsOn: Build
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/develop'))
+
+  jobs:
+  - deployment: DeployDevelopment
+    displayName: 'Deploy to Development'
+    environment: 'development'
+
+    pool:
+      vmImage: ubuntu-latest
+
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+            - download: current
+              artifact: drop
+
+            - script: |
+                echo "Deploy em Development executado com sucesso"
+              displayName: 'Deploy script'
+
+
+# =========================
+# STAGING
+# =========================
+- stage: Staging
+  displayName: 'Deploy to Staging'
+  dependsOn: Build
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/stage'))
+
+  jobs:
+  - deployment: DeployStaging
+    displayName: 'Deploy to Staging'
+    environment: 'staging'
+
+    pool:
+      vmImage: ubuntu-latest
+
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+            - download: current
+              artifact: drop
+
+            - script: |
+                echo "Deploy em Staging executado com sucesso"
+              displayName: 'Deploy script'
+
+
+# =========================
+# PRODUCTION
+# =========================
+- stage: Production
+  displayName: 'Deploy to Production'
+  dependsOn: Build
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+
+  jobs:
+  - deployment: DeployProduction
+    displayName: 'Deploy to Production'
+    environment: 'production'
+
+    pool:
+      vmImage: ubuntu-latest
+
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+            - download: current
+              artifact: drop
+
+            - script: |
+                echo "Deploy em Production executado com sucesso"
+              displayName: 'Deploy script'
