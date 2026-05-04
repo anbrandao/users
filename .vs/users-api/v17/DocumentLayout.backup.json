@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\infra\\ef\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:infra\\ef\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\infra\\ef\\usersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:infra\\ef\\usersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,20 +27,8 @@
       "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:identity\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\infra\\ef\\usersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:infra\\ef\\usersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\infra\\ef\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|solutionrelative:infra\\ef\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2676CA9-1FC6-46DB-9C52-3CFC361CE3A9}|users-api.csproj|c:\\repos\\workspace\\cloudgames2f\\functions\\users-api\\interface\\configuracao\\swaggerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -64,7 +64,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -80,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MassTransitConfig.cs",
               "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Messaging\\MassTransitConfig.cs",
               "RelativeDocumentMoniker": "Messaging\\MassTransitConfig.cs",
@@ -88,12 +88,11 @@
               "RelativeToolTip": "Messaging\\MassTransitConfig.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T11:06:14.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T11:06:14.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
@@ -101,12 +100,11 @@
               "RelativeToolTip": "Controllers\\UsersController.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAAwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T10:50:11.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T10:50:11.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Domain\\Entities\\Usuario.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Usuario.cs",
@@ -119,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Identity\\TokenService.cs",
               "RelativeDocumentMoniker": "Identity\\TokenService.cs",
@@ -127,38 +125,37 @@
               "RelativeToolTip": "Identity\\TokenService.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAAwE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T11:06:02.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T11:06:02.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "UserConfiguration.cs",
               "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Infra\\Ef\\UserConfiguration.cs",
               "RelativeDocumentMoniker": "Infra\\Ef\\UserConfiguration.cs",
               "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Infra\\Ef\\UserConfiguration.cs",
               "RelativeToolTip": "Infra\\Ef\\UserConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T11:06:06.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "UsersDbContext.cs",
               "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Infra\\Ef\\UsersDbContext.cs",
               "RelativeDocumentMoniker": "Infra\\Ef\\UsersDbContext.cs",
               "ToolTip": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Infra\\Ef\\UsersDbContext.cs",
               "RelativeToolTip": "Infra\\Ef\\UsersDbContext.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T11:06:09.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Repos\\Workspace\\CloudGames2F\\Functions\\users-api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
